@@ -305,18 +305,16 @@ Text {
     return   ((tempo <= 0) ? "" : "+") + (tempo * 100).toFixed(1).toString() + "%";
   }
 
-
   function getSyncStatusString() {
-    if ( !isLoaded ) 
+    if ( !isLoaded )
       return " ";
-    else if (isMaster)
-      return "MASTER";
+    var prefix = "";
+    if (isMaster)
+      prefix = "M ";
     else if (isInSync)
-      return "SYNC";
-
-    // Show the decks current pitch value in the area of the Master/Sync indicator 
-    // if a deck is neither synced nor set to maste (TP-8070)
+      prefix = "S ";
     return getStableTempoString();
+    return prefix + getStableTempoString();
   }
 
 }

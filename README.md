@@ -1,6 +1,7 @@
 # Display modifications for the Traktor Kontrol S8/S5/D2
 
-**Changes in appearance:**
+##Changes
+### … in appearance:
 
   - Added minute markers
   - Camelot keys
@@ -10,17 +11,17 @@
   - Spectrum waveform colors
   - Track deck header displays beats, remaining time, BPM and tempo
 
-**Changes in functionality:**
+### … in functionality:
 
   - Added sorting by Genre and Release
   - Hold Sync to quickly adjust the BPM
   - Improved timings
-  - Switched BPM coarse and fine adjustment
   - Use the Browse knob to zoom in and out of the waveform
+  - Display tempo change when track is synced or master
 
 ## How to install
 
-**Mac:**
+### Mac:
 
   - Navigate to /Applications/Native Instruments/Traktor 2
   - Right click Traktor.app, then click Show Package Contents
@@ -29,14 +30,9 @@
   - Replace the CSI, Defines and Screens folders
   - Restart Traktor
 
-**Windows:**
+### Windows:
 
   - Navigate to C:\Program Files\Native Instruments\Traktor 2\Resources64\qml
   - Make a backup of this folder!
   - Replace the CSI, Defines and Screens folders
   - Restart Traktor
-
-## Screenshots
-
-![Track Deck](https://ErikMinekus.github.io/traktor-kontrol-screens/track-deck.jpg)
-![Browser](https://ErikMinekus.github.io/traktor-kontrol-screens/browser.jpg)
